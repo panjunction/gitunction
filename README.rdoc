@@ -1,0 +1,8 @@
+= gitunction 0.1a
+
+gitunction (a portmanteau of git and junction) is a Ruby-on-Rails application designed to be a web front-end to gitolite.
+It's meant to be like a small personal installation of Github for a project or organization. It has by-repo and by-branch permissions.
+
+CHANGELOG
+
+0.1a - Empty Rails Application
