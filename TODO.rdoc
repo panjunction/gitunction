@@ -1,11 +1,12 @@
-# Backend
+= TODO
+== Backend
 - Use Grit to hook into git
 - Generate Models (Users, Groups, Teams, Repositories)
 - Generate Search Engine (MongoDB)
 
-# Administration
+== Administration
 - Generate hook into gitolite (ssh-keys, user repo/branch permissions, teams)
 
-# Frontend
+== Frontend
 - Generate cache algorithm with gitolite hook for webpage views
 - Generate view generator from git repositories

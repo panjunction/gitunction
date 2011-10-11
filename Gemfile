@@ -7,6 +7,9 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 
+gem 'grit' # For git integration
+gem 'mongo' # For NoRecord
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -33,4 +36,7 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'jasmine'
+  gem 'cucumber'
+  gem 'capybara-webkit'
 end
