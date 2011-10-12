@@ -7,8 +7,12 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 
+gem 'devise'
+gem 'cancan'
+
 gem 'grit' # For git integration
-gem 'mongo' # For NoRecord
+# gem 'mongo' # For NoRecord
+# gem 'no_record', :git => 'git://github.com/paulnt04/no_record.git
 
 
 # Gems used only for assets and not required
@@ -37,6 +41,12 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
   gem 'jasmine'
+  gem 'gherkin'
   gem 'cucumber'
-  gem 'capybara-webkit'
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'ruby-debug19'
+#  gem 'capybara-webkit'
 end
